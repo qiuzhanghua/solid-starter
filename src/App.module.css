@@ -1,0 +1,20 @@
+div {
+  color: blue;
+}
+
+h1 {
+  color: red;
+  /*font-weight: bold;*/
+  font-size: 2rem;
+}
+
+/* not effected */
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+/*@layer components {*/
+/*    #hello {*/
+/*        @apply text-4xl text-red-500 font-bold underline;*/
+/*    }*/
+/*}*/
