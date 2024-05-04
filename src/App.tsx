@@ -6,6 +6,7 @@ import {
   onCleanup,
 } from "solid-js";
 import "./App.module.css";
+import Label from "./Label";
 
 const App: Component = () => {
   const [count, setCount] = createSignal(0);
@@ -18,6 +19,10 @@ const App: Component = () => {
       <h1>Hello, Solid!</h1>
       <div>signal: {count()}</div>
       <div>memo: {current()}</div>
+      <Label greeting="Parent">
+        <div>child 1</div>
+        <p>child 2</p>
+      </Label>
     </>
   );
 };
